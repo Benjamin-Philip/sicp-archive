@@ -2,41 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Examples on Ben&#39;s Solutions to Sicp</title>
-    <link>https://benjamin-philip.github.io/sicp/examples/</link>
+    <link>https://benjamin-philip.github.io/sicp-archive/examples/</link>
     <description>Recent content in Examples on Ben&#39;s Solutions to Sicp</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://benjamin-philip.github.io/sicp/examples/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://benjamin-philip.github.io/sicp-archive/examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example - Testing for Primality</title>
-      <link>https://benjamin-philip.github.io/sicp/examples/example-testing-for-primality/</link>
+      <link>https://benjamin-philip.github.io/sicp-archive/examples/example-testing-for-primality/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://benjamin-philip.github.io/sicp/examples/example-testing-for-primality/</guid>
-      <description>This is section describes of methods for checking whether a number n is prime or not. One with order of growth $\theta(\sqrt[]{n})$ and another of growth $\theta(\log n)$.
-The First method A common way to check if a number is prime or not is by finding all the factors of that number. Take the number 2. Its&amp;rsquo; factors are 1 and 2. Thus it is prime. Or take 6. It can be expressed as $\times[2][3]3$ or $\times[6][1]$.</description>
+      <guid>https://benjamin-philip.github.io/sicp-archive/examples/example-testing-for-primality/</guid>
+      <description>&lt;p&gt;This is section describes of methods for checking whether&#xA;a number &lt;code&gt;n&lt;/code&gt; is prime or not. One with order of growth $\theta(\sqrt[]{n})$&#xA;and another of growth $\theta(\log n)$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-first-method&#34;&gt;The First method&lt;/h1&gt;&#xA;&lt;p&gt;A common way to check if a number is prime or not is by finding all&#xA;the factors of that number. Take the number 2. Its&amp;rsquo; factors are 1&#xA;and 2. Thus it is prime. Or take 6. It can be expressed as&#xA;$\times[2][3]3$ or $\times[6][1]$. So all we need to do is find if it&#xA;has factors other than 1 and itself by incrementing from 2.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Example: Counting Change</title>
-      <link>https://benjamin-philip.github.io/sicp/examples/example-counting-change/</link>
+      <link>https://benjamin-philip.github.io/sicp-archive/examples/example-counting-change/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://benjamin-philip.github.io/sicp/examples/example-counting-change/</guid>
-      <description>In this Example, we write a recursive procedure to calculate the number of possible ways to tend change to a given value.
-The Problem Suppose you have a sum of 1 dollar. Let&amp;rsquo;s say you bought a coffee for 90 cents, and the cafeteria needs to pay you back 10 cents. How do find number of ways to the cafeteria can pay you back your change? One such way is to manually count the possible ways.</description>
+      <guid>https://benjamin-philip.github.io/sicp-archive/examples/example-counting-change/</guid>
+      <description>&lt;p&gt;In this Example, we write a recursive procedure to calculate&#xA;the number of possible ways to tend change to a given value.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-problem&#34;&gt;The Problem&lt;/h1&gt;&#xA;&lt;p&gt;Suppose you have a sum of 1 dollar. Let&amp;rsquo;s say you bought a&#xA;coffee for 90 cents, and the cafeteria needs to pay you&#xA;back 10 cents. How do find number of ways to the cafeteria&#xA;can pay you back your change? One such way is to manually&#xA;count the possible ways.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Example: Square roots by Newton&#39;s Method</title>
-      <link>https://benjamin-philip.github.io/sicp/examples/example-newtons-square-root/</link>
+      <link>https://benjamin-philip.github.io/sicp-archive/examples/example-newtons-square-root/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://benjamin-philip.github.io/sicp/examples/example-newtons-square-root/</guid>
-      <description>All the Procedures explained previously were much like ordinary Mathematical functions. However in Mathematics, we are usually concerned with declarative (what is) descriptions. We soon reach issues when deriving procedure from their Mathematical definition. Consider the definition of the Square root:
-$ \sqrt{x} = $ the y such that $ y \geq 0 $ and $ ^{2} = x $
-The above is a perfectly legitimate mathematical function BUT doesn&amp;rsquo;t tell use how to compute the sqrt.</description>
+      <guid>https://benjamin-philip.github.io/sicp-archive/examples/example-newtons-square-root/</guid>
+      <description>&lt;p&gt;All the Procedures explained previously were much like&#xA;ordinary Mathematical functions. However in Mathematics,&#xA;we are usually concerned with declarative (what is) descriptions.&#xA;We soon reach issues when deriving procedure from their&#xA;Mathematical definition. Consider the definition of the&#xA;Square root:&lt;/p&gt;&#xA;&lt;p&gt;$ \sqrt{x} = $ the &lt;em&gt;y&lt;/em&gt; such that $ y \geq 0 $ and $ ^{2} = x $&lt;/p&gt;&#xA;&lt;p&gt;The above is a perfectly legitimate mathematical function &lt;strong&gt;BUT&lt;/strong&gt; doesn&amp;rsquo;t&#xA;tell use &lt;em&gt;how&lt;/em&gt; to compute the sqrt.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
