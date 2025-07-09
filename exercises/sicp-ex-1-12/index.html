@@ -3,7 +3,7 @@
 <head>
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.98.0" />
+  <meta name="generator" content="Hugo 0.142.0">
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +12,10 @@
   <meta name="description" content="" />
 
   
-  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp/css/print.css" media="print">
-  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp/css/poole.css">
-  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp/css/syntax.css">
-  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp/css/hyde.css">
+  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp-archive/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp-archive/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp-archive/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://benjamin-philip.github.io/sicp-archive/css/hyde.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
 
@@ -52,7 +52,7 @@
   <aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="https://benjamin-philip.github.io/sicp/"><h1>Ben&#39;s Solutions to Sicp</h1></a>
+      <a href="https://benjamin-philip.github.io/sicp-archive/"><h1>Ben&#39;s Solutions to Sicp</h1></a>
       <p class="lead">
        My journey reading Sicp: From learning scheme to building an interpreter. 
       </p>
@@ -60,12 +60,12 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="https://benjamin-philip.github.io/sicp/">Home</a> </li>
+        <li><a href="https://benjamin-philip.github.io/sicp-archive/">Home</a> </li>
         
       </ul>
     </nav>
 
-    <p>&copy; 2022. All rights reserved. </p>
+    <p>&copy; 2025. All rights reserved. </p>
   </div>
 </aside>
 
@@ -77,7 +77,7 @@
 we compute pascal&rsquo;s Triangle.</p>
 <h1 id="the-question">The Question</h1>
 <p><strong>Exercise 1.12:</strong> The following pattern of numbers is called <em>Pascals&rsquo; Triangle.</em></p>
-<p><img src="p-tri.gif" alt="Pascal&amp;rsquo;s Triangle "></p>
+<p><img src="p-tri.gif" alt="Pascal&rsquo;s Triangle "></p>
 <p>The numbers at the edge of the triangle are all 1, and each number
 inside the triangle is the sum of the two numbers above it. Write
 a procedure that computes elements of Pascal’s triangle by means
@@ -95,7 +95,7 @@ able to compute a single element</p>
 <p>In order to compute an element of pascal&rsquo;s triangle, we need
 to be able to say <em>which</em> element you are talking about. For
 this we will use a notation based on the vertical and horizontal position.</p>
-<p><img src="p-tri-r.gif" alt="Pascal&amp;rsquo;s Triangle"></p>
+<p><img src="p-tri-r.gif" alt="Pascal&rsquo;s Triangle"></p>
 <p>Look at that 6. It is the 3rd element in 4th row.
 We will refer to it in our function like this:
 <code>(p 2 4)</code></p>
@@ -238,18 +238,19 @@ for all the possible &ldquo;patterns&rdquo;.</p>
       </main>
 
       
-      
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PFRPH4Y65"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-8PFRPH4Y65', { 'anonymize_ip': false });
-}
-</script>
-
-      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PFRPH4Y65"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-8PFRPH4Y65');
+        }
+      </script>
   </body>
 </html>
