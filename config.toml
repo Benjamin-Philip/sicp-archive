@@ -1,4 +1,4 @@
-baseURL = "https://benjamin-philip.github.io/sicp/"
+baseURL = "https://benjamin-philip.github.io/sicp-archive/"
 languageCode = "en-us"
 title = "Ben's Solutions to Sicp"
 theme = "hyde"
